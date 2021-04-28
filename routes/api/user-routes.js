@@ -1,6 +1,6 @@
 const router = require('express').Router();
+const { User, Post, Vote } = require("../../models");
 
-const { truncateSync } = require('node:fs');
 const { User } = require('../../models')
 
 
